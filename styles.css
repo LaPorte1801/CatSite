@@ -1,5 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
 
+body {
+    background: azure;
+}
+
 * {
     font-family: 'Istok Web', sans-serif;
+    margin: 0px;
+}
+
+.container{
+    max-width: 75%;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+#catPic {
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.catPluses {
+    background: linear-gradient(lightblue, skyblue);
+    margin: 20px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.catMinuses {
+    background: linear-gradient(lightcoral, crimson);
+    margin: 20px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.plusesAndMinuses {
+    display: flex;
+}
+
+.opinionAboutCat {
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.opinionAboutCat textarea {
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    outline: 0ch;
+}
+
+.opinionAboutCat input {
+    width: 50%;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    outline: 0ch;
 }
