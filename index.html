@@ -3,35 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Мой сайт с котом</title>
-  <link rel="stylesheets" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Кот</h1>
-  <img src="images/cat.jpg" height="600"/>
-
-  <p>Этот кот:</p>
-  
-  <ul>
-    <li>пушистый</li>
-    <li>рыжий</li>
-    <li>уверен в себе</li>
-    <li>гордая осанка</li>
-    <li>смелый!!!</li>
-    <li>суровый</li>
-  </ul>
-  
-  <P><strong>Кот обладает всеми качествами лидера</strong></P>
-  
-  <hr/>
-  
-  <h2>Напишите свое мнение об этом коте!!!</h2>
-  
-  <textarea rows="10" cols="55" ></textarea>
-  
-  <br/>
-  
-  <label for="userName">Ваше имя: </label>
-  <input id="userName" type="text" />
-  <input type="submit" value="Отправить"/>
+  <div class="header">
+    <h1>Кот</h1>
+    <img id="catPic" src="images/cat.jpg" height="600"/>
+  </div>
+  <div class="container">
+      <div class="plusesAndMinuses">
+        <div class="catPluses">
+          <p>Плюсы кота:</p>
+          <ul>
+            <li>пушистый</li>
+            <li>рыжий</li>
+            <li>уверен в себе</li>
+            <li>гордая осанка</li>
+            <li>смелый!!!</li>
+            <li>суровый</li>
+          </ul>
+        </div>
+        <div class="catMinuses">
+          <p>Минусы кота:</p>
+          <ul>
+            <li>слишком доброе лицо напрягает</li>
+            <li>ссыт в тапки</li>
+            <li>бегает как ебанутый ночью</li>
+            <li>я бы назвал его борис</li>
+          </ul>
+        </div>
+      </div>
+    <div class="opinionAboutCat">
+      <h2>Напишите свое мнение об этом коте!!!</h2>
+    
+      <textarea rows="5" placeholder="Введите свое мнение..."></textarea>
+    
+      <label for="userName">Ваше имя: </label>
+      <input id="userName" type="text" placeholder="Введите имя..."/>
+      <button type="button" >Отправить</button>
+    </div>
+    
+  </div>
 </body>
 </html>
